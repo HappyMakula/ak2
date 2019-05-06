@@ -30,22 +30,21 @@ void test(char c){
 }
 
 int main(void){
-	unsigned long long int a,b,c ;
+	unsigned long long int a,b,c,d ;
 	int i;
-	for (i=0;i<10;i++){
+	
+	for (i=0;i<30;i++){
 		a= fun(1);
-		printf("fib %u\n",fib_it(20));
+		fib_it(i);
 		b= fun(1);
 		c=b-a;
-		printf ("%llu\n",c);
-	};
+		//printf ("%d %llu\n",i,c);
 
-	for (i=0;i<10;i++){
-		a= fun(-1);
-		printf("fib %u\n",fib_rq(20));
-		b= fun(-1);
-		c=b-a;
-		printf ("%llu\n",c);
+		a= fun(1);
+		fib_rq(i);
+		b= fun(1);
+		d=b-a;
+		printf ("%d %llu %llu\n",i,c,d);
 	};
 
 	return 0;
