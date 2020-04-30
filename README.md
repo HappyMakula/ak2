@@ -1,2 +1,1 @@
-# 221596
-Pawłowicz Mira Joanna
+Simple assemble taks done for class
