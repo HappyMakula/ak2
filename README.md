@@ -1,1 +1,1 @@
-Simple assemble taks done by me for class
+Simple assemble taks, done by me, for class
