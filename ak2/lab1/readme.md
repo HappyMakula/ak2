@@ -1,1 +1,1 @@
-Reads what you written and prints it
+Reads what you have written and prints it
