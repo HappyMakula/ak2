@@ -1,1 +1,1 @@
-Simple assemble task, for class
+Simple assemble tasks done for class
