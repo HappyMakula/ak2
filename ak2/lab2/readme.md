@@ -1,1 +1,1 @@
-Rreverses what is written
+Reads what you have written, reverses and prints it
